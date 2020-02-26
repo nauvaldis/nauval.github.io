@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -121,16 +121,16 @@ author:
       url: "https://ogty.blogspot.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/nauvaldis"
+    #  url: "https://twitter.com/nauvaldis"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/nauvaldis"
+    #  url: "https://facebook.com/nauvaldis"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/nauvaldis"
+    #  url: "https://github.com/nauvaldis"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mnauvald"
+    #  url: "https://instagram.com/mnauvald"
 
 # Site Footer
 footer:
