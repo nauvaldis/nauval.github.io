@@ -16,7 +16,7 @@
       if (this.readyState == 4 && this.status == 200) {
          var data=JSON.parse(xhttp.responseText);
          data.forEach(function(element) {
-      document.getElementById("demo").innerHTML +="<br>Category :" + element["completions"][0]["result"][0]["value"]["polygonlabels"] + "<br>Link :" + element["data"]["image"] + "<br> Test : " + "element" + "<br><br>";
+      document.getElementById("demo").innerHTML +="<br>Category :<br>" + element["completions"][0]["result"][0]["value"]["polygonlabels"] + "<br>" + element["completions"][0]["result"][1]["value"]["polygonlabels"] + "<br>Link :" + element["data"]["image"] + "<br> Test : " + "element" + "<br><br>";
     });
       }
   };
