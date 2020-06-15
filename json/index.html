@@ -16,7 +16,7 @@
       if (this.readyState == 4 && this.status == 200) {
          var data=JSON.parse(xhttp.responseText);
          data.forEach(function(element) {
-      document.getElementById("demo").innerHTML +="NIM :" + element["nim"] + "<br>Nama :" + element["completions"][0]["id"] + "<br>Alamat :" + "element" + "<br> Test : " + "element" + "<br><br>";
+      document.getElementById("demo").innerHTML +="<br>Nama :" + element["completions"][0]["id"] + "<br>Alamat :" + "element" + "<br> Test : " + "element" + "<br><br>";
     });
       }
   };
